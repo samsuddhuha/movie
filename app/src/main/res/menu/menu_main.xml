@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/main_now_playing"
+        android:title="@string/now_playing"
+        android:icon="@drawable/ic_now_playing"/>
+
+    <item
+        android:id="@+id/main_information"
+        android:title="@string/information"
+        android:icon="@drawable/ic_information"/>
+
+    <item
+        android:id="@+id/main_ticket"
+        android:title="@string/ticket"
+        android:icon="@drawable/ic_ticket"/>
+
+    <item
+        android:id="@+id/main_account"
+        android:title="@string/account"
+        android:icon="@drawable/ic_account"/>
+
+</menu>

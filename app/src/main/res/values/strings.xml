@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Movie</string>
+
+    <string name="now_playing">Now Playing</string>
+    <string name="account">Account</string>
+    <string name="information">Information</string>
+    <string name="ticket">Ticket</string>
+
+</resources>
