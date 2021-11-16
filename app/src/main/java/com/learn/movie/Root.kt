@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.os.Handler
 import androidx.appcompat.app.AppCompatActivity
 import com.learn.movie.feature.MainActivity
+import com.learn.movie.feature.login.LoginActivity
 
 class Root : AppCompatActivity() {
 
@@ -17,7 +18,7 @@ class Root : AppCompatActivity() {
         super.onStart()
 
         handler.postDelayed({
-            startActivity(Intent(this, MainActivity::class.java).apply {
+            startActivity(Intent(this, LoginActivity::class.java).apply {
                 addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
             }).also { finish() }
         },500)
